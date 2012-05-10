@@ -25,6 +25,3 @@ A REST client (GeocandraClient) for java can be found in the geocandra-client.ja
 
 For multi-machine configuration make sure to change the data center and worker ids 
 located in ./config/geocandra.properties
-
-### Downloads
-[geocandra-0.1-all.zip](https://github.com/earnstone/maven-repo/tree/master/releases/com/earnstone/geo/geocandra/0.1)

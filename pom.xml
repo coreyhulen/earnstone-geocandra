@@ -1,0 +1,50 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.earnstone.geo</groupId>
+	<artifactId>geocandra</artifactId>
+	<name>Geocandra</name>
+	<version>0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
+	<dependencies>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.8.2</version>
+		</dependency>
+	</dependencies>
+	<description>Geocandra is a geo-location server built on top of cassandra.</description>
+	<url>https://github.com/earnstone/geocandra</url>
+	<issueManagement>
+		<system>Github Issues</system>
+		<url>https://github.com/earnstone/geocandra/issues</url>
+	</issueManagement>
+	<inceptionYear>2011</inceptionYear>
+	<scm>
+		<connection>scm:git:git@github.com:earnstone/geocandra.git</connection>
+		<developerConnection>scm:git:git@github.com:earnstone/geocandra.git</developerConnection>
+		<url>scm:git:git@github.com:earnstone/geocandra.git</url>
+	</scm>
+	<organization>
+		<name>Earnstone Corporation</name>
+		<url>http://www.earnstone.com</url>
+	</organization>
+	<repositories>
+		<repository>
+			<id>maven2-repository.dev.java.net</id>
+			<name>Java.net Repository for Maven</name>
+			<url>http://download.java.net/maven/2</url>
+		</repository>
+		<repository>
+			<id>earnstone-repo</id>
+			<url>https://github.com/earnstone/maven-repo/raw/master/releases</url>
+		</repository>
+	</repositories>
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+	<modules>
+		<module>geocandra-server</module>
+		<module>geocandra-client</module>
+	</modules>
+</project>

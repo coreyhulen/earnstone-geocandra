@@ -1,0 +1,70 @@
+<html>
+<title>Geocandra Server</title>
+<style>
+csbody,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,p,blockquote,th,td,select,span
+	{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font: 12px Verdana, Arial, sans-serif;
+	margin: 20px;
+	color: #333333;
+}
+
+ol,ul {
+	list-style: none;
+}
+
+.perf-table {
+	margin-top: 20px; 
+	margin-left: 10px;
+	color: #333333;
+	font: 12px Verdana, Arial, sans-serif;
+	border-right: 1px solid #aaaaaa;
+	border-bottom: 1px solid #aaaaaa;
+}
+
+.perf-table th {
+	padding: 2px 4px 2px 4px;	
+    border-left: 1px solid #aaaaaa;
+	border-top: 1px solid #aaaaaa;
+}
+
+.perf-name {
+	padding: 2px 4px 2px 4px;
+	border-left: 1px solid #aaaaaa;
+	border-top: 1px solid #aaaaaa;
+}
+
+.perf-value {
+	padding: 2px 4px 2px 4px;
+	border-left: 1px solid #aaaaaa;
+	border-top: 1px solid #aaaaaa;
+	text-align: right;
+}
+
+.info {
+	margin-top: 15px; 
+	margin-left: 10px;
+}
+
+</style>
+<body>
+<h2>Geocandra Geo-location Server</h2>
+<ul class="info">
+	<li><strong>Version :</strong> {version}</li>
+	<li><strong>Heap Memory:</strong> {memory} MB</li>
+</ul>
+<table cellspacing="0" cellpadding="0" class="perf-table">
+	<tr><th>Performance Counter</th><th>Value</th></tr>
+	{perf}
+</table>
+<p style="margin-top: 40px;">For more information about Geocandra
+please visit <a href="https://github.com/earnstone/geocandra">https://github.com/earnstone/geocandra</a></p>
+<p style="margin-top: 15px;">Copyright 2011 Corey Hulen, Earnstone
+Corporation.</p>
+<p>Licensed under the Apache License, Version 2.0 (the "License").</p>
+</body>
+</html>
